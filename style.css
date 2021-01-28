@@ -19,6 +19,27 @@
     font-size: 4em;
     font-weight: 100;
   }
+  /* gallery */
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
   
   /* Header styles */
   
@@ -375,46 +396,3 @@ img {
     
   }
   /* ANIMATED */
-  /* This only changes this particular animation duration */
-.animate__animated.animate__bounceInDown {
-    --animate-duration: 2s;
-  }
-  
-  /* This changes all the animations globally */
-  :root {
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-  }
-
-  /* This only changes this particular animation duration */
-  .animate__animated.animate__bounce {
-    --animate-duration: 0.7s;
-  }
-  
-  /* This changes all the animations globally */
-  :root {
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-  }
-
-  /* This only changes this particular animation duration */
-.animate__animated.animate__fadeInLeft {
-    --animate-duration: 2s;
-  }
-  
-  /* This changes all the animations globally */
-  :root {
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-  }
-
-  /* This only changes this particular animation duration */
-.animate__animated.animate__bounce {
-    --animate-duration: 2s;
-  }
-  
-  /* This changes all the animations globally */
-  :root {
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-  }
